@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 8px;
+  width: 180px;
+}
+
+button#submit {
+  padding: 8px 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
